@@ -11,17 +11,18 @@
     --link-color:rgb(53, 184, 236);
 }
 
-body{
+
+
+/*Stili Header*/
+.container{
     width: 70%;
     margin: auto;
 }
 
-/*Stili Header*/
-
 .header{
     color: var(--title-color);
     padding: 50px;
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -32,13 +33,12 @@ p{
 
 /*Stili Cards*/
 .cards{
-    width: calc(100% / 3 - 20px);
-    height: 100px;
+    min-width: calc(100% / 3 - 30px);
     background-color:var(--card-color);
     display: inline-block;
     float: left;
-    margin: 20px 10px;
-    
+    margin: 30px 15px;
+    max-height: 700px;
 }
 
 .foto-profilo{
@@ -49,10 +49,10 @@ p{
 
 .dati{
     display: inline-block;
-    float: left;
     position: absolute;
     color: white;
     padding: 15px;
+    float: left;
 }
 
 /*Stili Testo-cards*/
