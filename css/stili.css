@@ -5,19 +5,63 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+:root{
+    --title-color: rgb(229, 49, 112);
+    --card-color:rgb(15, 14, 23);
+    --link-color:rgb(53, 184, 236);
+}
+
 body{
     width: 70%;
     margin: auto;
-    text-align: center;
 }
 
-:root{
-    --title-color: rgb(229, 49, 112);
-    --card-color: #rgb(15, 14, 23);
-}
+/*Stili Header*/
 
 .header{
     color: var(--title-color);
     padding: 50px;
     font-size: 1.5rem;
+    text-align: center;
 }
+
+/*Stili Main*/
+p{
+    text-align: center;
+}
+
+/*Stili Cards*/
+.cards{
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    background-color:var(--card-color);
+    display: inline-block;
+    float: left;
+    margin: 20px 10px;
+    
+}
+
+.foto-profilo{
+    width: 100px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.dati{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    color: white;
+    padding: 15px;
+}
+
+/*Stili Testo-cards*/
+
+a{
+    color:var(--link-color);
+}
+
+a:hover{
+    color: white;
+}
+
