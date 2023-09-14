@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+:root{
+    --title-color: rgb(229, 49, 112);
+    --card-color: #rgb(15, 14, 23);
+}
+
+.header{
+    color: var(--title-color);
+    padding: 50px;
+    font-size: 1.5rem;
+}
