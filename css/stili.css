@@ -32,27 +32,24 @@ p{
 }
 
 /*Stili Cards*/
-.cards{
-    min-width: calc(100% / 3 - 30px);
+.card{
+    width: calc(100% / 3 - 30px);
     background-color:var(--card-color);
-    display: inline-block;
     float: left;
     margin: 30px 15px;
-    max-height: 700px;
 }
 
 .foto-profilo{
     width: 100px;
     margin-right: 10px;
     height: 100%;
+    float: left;
+
 }
 
 .dati{
-    display: inline-block;
-    position: absolute;
-    color: white;
+    color: white;  
     padding: 15px;
-    float: left;
 }
 
 /*Stili Testo-cards*/
